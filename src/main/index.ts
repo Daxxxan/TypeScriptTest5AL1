@@ -1,6 +1,6 @@
-import { Pokemon } from "./Pokemon";
+import { Pokemon } from "./pokemon";
 
-let pikachu = new Pokemon("Pikachu");
-let bulbizarre = new Pokemon("Bulbizarre");
-console.log(pikachu.name);
-console.log(bulbizarre.name);
+let poussifeu = new Pokemon("Poussifeu", 45, 'poussin');
+let gloupti = new Pokemon("Gloupti", 40, 'estomac');
+console.log(poussifeu.name);
+console.log(gloupti.name);
