@@ -1,0 +1,19 @@
+{
+  "name": "typescripttest5al1",
+  "version": "1.0.0",
+  "description": "TypeScriptTest5AL1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daxxxan/TypeScriptTest5AL1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daxxxan/TypeScriptTest5AL1/issues"
+  },
+  "homepage": "https://github.com/Daxxxan/TypeScriptTest5AL1#readme"
+}
