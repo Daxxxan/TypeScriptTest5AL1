@@ -34,9 +34,7 @@ export class Pokemon {
     }
 
     isAlive(): boolean {
-        if(this.hp > 0) {
-            return true;
-        }
-        return false;
+        return this.hp > 0;
+
     }
 }

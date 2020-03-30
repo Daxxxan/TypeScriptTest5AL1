@@ -11,5 +11,12 @@ describe('Test battle.ts', () => {
         let gloupti = new Pokemon("Gloupti", 40, 'estomac', 100, attacks);
         let battle: Battle = new Battle(poussifeu, gloupti);
         expect(battle.play(poussifeu, gloupti)).toBe(poussifeu);
+    }),
+
+    test('Gloupti should win', () => {
+        let poussifeu = new Pokemon("Poussifeu", 45, 'poussin', 100, attacks);
+        let gloupti = new Pokemon("Gloupti", 40, 'normand', 100, attacks);
+        let battle: Battle = new Battle(poussifeu, gloupti);
+        expect(battle.play(poussifeu, gloupti)).toBe(gloupti);
     })
 });
