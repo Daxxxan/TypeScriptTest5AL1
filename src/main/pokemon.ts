@@ -32,4 +32,11 @@ export class Pokemon {
     get getHp(): number {
         return this.hp;
     }
+
+    isAlive(): boolean {
+        if(this.hp > 0) {
+            return true;
+        }
+        return false;
+    }
 }
