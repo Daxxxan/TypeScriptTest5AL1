@@ -9,7 +9,7 @@ function turnOrder(firstPokemon: Pokemon, secondPokemon: Pokemon) : Pokemon {
         if(firstPokemon.speed > secondPokemon.speed) {
             return firstPokemon;
         } else if( firstPokemon.speed === secondPokemon.speed) {
-            return getRandomInt(1) ? secondPokemon : firstPokemon;
+            return getRandomInt(2) ? secondPokemon : firstPokemon;
         }
         return secondPokemon;
     }
