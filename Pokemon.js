@@ -3,3 +3,5 @@ class Pokemon {
         this.name = name;
     }
 }
+
+module.exports = Pokemon;
