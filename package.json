@@ -4,7 +4,7 @@
   "description": "TypeScriptTest5AL1",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/Daxxxan/TypeScriptTest5AL1#readme",
   "dependencies": {
     "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.5",
+    "jest": "^25.2.4",
+    "ts-jest": "^25.3.0"
   }
 }
